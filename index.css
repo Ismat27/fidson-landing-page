@@ -51,6 +51,7 @@ a {
 }
 header {
     padding: 30px 20px 0 20px;
+    margin-bottom: 30px;
 }
 .abc {
     display: flex;
@@ -119,6 +120,32 @@ header {
 .cross-hamburger .bar:nth-child(3) {
     transform: translateY(19px) rotate(-45deg);
 }
+.hero-section {
+    padding: 20px;
+}
+.hero-services {
+    color: var(--grey-color);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.recognition {
+    display: flex;
+    gap: 50px;
+}
+.recognition p {
+    color: #3A3A3A;
+}
+.reg-cert {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+}
+.rec-header {
+    color: var(--bg-blue-color);
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
 .products-section {
     padding: 0 20px;
     max-width: 1200px;
@@ -130,9 +157,10 @@ header {
     align-items: center;
     gap: 20px;
     color: var(--black-color1);
-    font-weight: 400;
-    font-size: 16px;
     margin-bottom: 30px;
+}
+.products-header > h1 {
+    font-size: 20px;
 }
 .products, .view-more {
     max-width: 1020px;
@@ -279,8 +307,25 @@ footer .support-channel {
     .sub-nav > li > a{
         color: var(--white-color);
     }
+    .hero-section {
+        padding-left: 100px;
+    }
+    .hero-advert {
+        display: flex;
+        align-items: flex-start;
+        gap: 80px;
+    }
+    .hero-services {
+        text-align: start;
+    }
+    .recognition p {
+        font-weight: 700;
+    }
     .products-header {
         margin-bottom: 50px;
+    }
+    .products-header > h1 {
+        font-size: 40px;
     }
     .product {
         display: flex;
